@@ -1,0 +1,79 @@
+ """
+------------------------------------------------------------------------
+CP164 Assignment 02, Testing
+------------------------------------------------------------------------
+Author:  Suleman Ali
+ID:      169044667
+Email:   alix4667@mylaurier.ca
+__updated__ = "2023-09-17"
+------------------------------------------------------------------------
+"""
+------------------------------------------------------------------------
+t01
+------------------------------------------------------------------------
+Title:    Dark City
+Year:     1998
+Director: Alex Proyas
+Rating:   7.8
+Genres:   science fiction
+------------------------------------------------------------------------
+t02
+------------------------------------------------------------------------
+Title:    Dellamorte Dellamore
+Year:     1994
+Director: Michele Soavi
+Rating:   7.2
+Genres:   romance, comedy, zombie, horror
+
+------------------------------------------------------------------------
+t03
+------------------------------------------------------------------------
+Title:    Stardust
+Year:     2007
+Director: Matthew Vaughn
+Rating:   7.7
+Genres:   fantasy, comedy
+
+Title:    Jason and the Argonauts
+Year:     1963
+Director: Don Chaffey
+Rating:   7.4
+Genres:   fantasy, action
+
+Title:    Wonder Woman
+Year:     2017
+Director: Patty Jenkins
+Rating:   8.1
+Genres:   fantasy, action
+
+
+------------------------------------------------------------------------
+t04
+------------------------------------------------------------------------
+Title:    Juno
+Year:     2007
+Director: Jason Reitman
+Rating:   7.7
+Genres:   romance, comedy
+
+Title:    Broken Flowers
+Year:     2005
+Director: Jim Jarmusch
+Rating:   7.2
+Genres:   romance, comedy
+
+------------------------------------------------------------------------
+t05
+------------------------------------------------------------------------
+science fiction: 6
+fantasy: 3
+drama: 2
+romance: 3
+comedy: 8
+zombie: 1
+action: 5
+historical: 0
+horror: 4
+war: 1
+mystery: 0
+------------------------------------------------------------------------
