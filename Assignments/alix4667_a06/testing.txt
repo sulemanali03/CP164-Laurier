@@ -1,0 +1,261 @@
+"""
+------------------------------------------------------------------------
+CP164 Assignment 03, Testing
+------------------------------------------------------------------------
+Author:  Suleman Ali
+ID:      169044667
+Email:   alix4667@mylaurier.ca
+__updated__ = "2023-09-17"
+------------------------------------------------------------------------
+"""
+------------------------------------------------------------------------
+t01
+------------------------------------------------------------------------
+Input queue below will be used to test all functions.
+Enter values to queue, separated by commas: 5,6,7,8,9
+ 
+--insert--
+Queue after insert:
+5
+6
+7
+8
+9
+ 
+--is_empty--
+Empty: False
+ 
+--remove--
+Queue after remove:
+6
+7
+8
+9
+ 
+--peek--
+Queue after peek:
+6
+7
+8
+9
+ 
+--_move_front_to_rear--
+Target queue before _move_front_to_rear:
+1
+2
+3
+ 
+Queue after _move_front_to_rear:
+6
+7
+8
+9
+1
+ 
+--_append_queue--
+Enter values to append into queue-2, separated by commas: 5,6
+Queue after _append_queue:
+6
+7
+8
+9
+1
+5
+6
+ 
+--combine--
+Enter values to append into queue-2, separated by commas: 5,9
+Final queue after combine:
+6
+5
+7
+9
+8
+9
+1
+5
+6
+ 
+--split_alt--
+Target 2 before split_alt:
+1
+2
+3
+ 
+Target 1 after split_alt:
+ 
+Target 2 after split_alt:
+ 
+__eq__
+Enter values to append into queue-2, separated by commas: 3,4
+Equal: False
+
+
+------------------------------------------------------------------------
+t02
+------------------------------------------------------------------------
+Both Priority Queues below will be used for most tests.
+ 
+Enter a value to insert into Priority Queue 1, separated by spaces: 43 52 67 95
+Enter a value to insert into Priority Queue 2, separated by spaces: 444 555 666 777 888 999
+
+--insert--
+ 
+Priority Queue 1:
+43
+52
+67
+95
+ 
+Priority Queue 2:
+444
+555
+666
+777
+888
+999
+ 
+--is_empty--
+Priority Queue 1 is empty: False
+ 
+--remove--
+Priority Queue 1 after removing 43:
+52
+67
+95
+ 
+--peek--
+Priority Queue 1 after peeking: 52
+52
+67
+95
+ 
+--split_alt--
+Target 1:
+52
+95
+ 
+Target 2:
+67
+ 
+--split_key--
+Enter a key to split Priority Queue 1 by: 2
+Target 1:
+ 
+Target 2:
+ 
+--combine--
+Target after combine:
+444
+555
+666
+777
+888
+999
+ 
+--_append_queue--
+Using new Priority Queue 1 and Priority Queue 2:
+Enter a value to insert into Priority Queue 1, separated by spaces: 2 3
+Enter a value to insert into Priority Queue 2, separated by spaces: 4 5
+ 
+Priority Queue 2 after appending Priority Queue 1:
+4
+5
+2
+3
+ 
+--_move_front_to_rear--
+Using new Priority Queue 1 and Priority Queue 2:
+Enter a value to insert into Priority Queue 1, separated by spaces: 6 7
+Enter a value to insert into Priority Queue 2, separated by spaces: 8 9
+ 
+Priority Queue 1 before moving front to rear:
+6
+7
+
+------------------------------------------------------------------------
+t03
+------------------------------------------------------------------------
+Enter a value to insert into initial Deque, separated by spaces. This will be used for most tests: 88888 66666 33333 5 6 7 8 9
+Initial Deque:
+9
+8
+7
+6
+5
+33333
+66666
+88888
+ 
+--insert_front--
+Enter a value to insert into Deque1, separated by spaces:  5 6 7 8 9
+Deque1:
+9
+8
+7
+6
+5
+ 
+--insert_rear--
+Enter a value to insert into Deque2, separated by spaces: 5646475 547656 5464745 546464 654646 65488
+Deque2:
+5646475
+547656
+5464745
+546464
+654646
+65488
+ 
+--is_empty--
+Initial Deque is empty: False
+ 
+--remove_front--
+Removing front value: 9
+Initial Deque after remove_front:
+8
+7
+6
+5
+33333
+66666
+88888
+ 
+--remove_rear--
+Removing rear value: 88888
+Initial Deque after remove_rear:
+8
+7
+6
+5
+33333
+66666
+ 
+--peek_front--
+Peeking front value: 8
+Initial Deque after peek_front:
+8
+7
+6
+5
+33333
+66666
+ 
+--peek_rear--
+Peeking rear value: 66666
+Initial Deque after peek_rear:
+8
+7
+6
+5
+33333
+66666
+ 
+--_swap--
+Initial Deque after _swap:
+8
+33333
+6
+5
+7
+66666
+------------------------------------------------------------------------
