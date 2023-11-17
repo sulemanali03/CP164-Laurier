@@ -1,0 +1,422 @@
+"""
+------------------------------------------------------------------------
+CP164 Assignment 03, Testing
+------------------------------------------------------------------------
+Author:  Suleman Ali
+ID:      169044667
+Email:   alix4667@mylaurier.ca
+__updated__ = "2023-09-17"
+------------------------------------------------------------------------
+"""
+------------------------------------------------------------------------
+t01
+------------------------------------------------------------------------
+
+__eq__: False
+
+__getitem__:
+Title:    I Am Legend
+        Year:     2007
+        Director: Francis Lawrence
+        Rating:   7.1
+        Genres:   [0, 6]
+
+Clean: [1, 3, 5, 6]
+
+Combine:
+Title:    Dellamorte Dellamore
+        Year:     1994
+        Director: Michele Soavi
+        Rating:   7.2
+        Genres:   [3, 4, 5, 8]
+
+Title:    Dark City
+        Year:     1998
+        Director: Alex Proyas
+        Rating:   7.8
+        Genres:   [0]
+
+Title:    Zulu
+        Year:     1964
+        Director: Cy Endfield
+        Rating:   7.8
+        Genres:   [9]
+
+Title:    I Am Legend
+        Year:     2007
+        Director: Francis Lawrence
+        Rating:   7.1
+        Genres:   [0, 6]
+
+Title:    Omega Man, The
+        Year:     1971
+        Director: Boris Sagal
+        Rating:   6.6
+        Genres:   [0, 6]
+
+Title:    Last Man On Earth, The
+        Year:     1964
+        Director: Ubaldo Ragona
+        Rating:   6.9
+        Genres:   [0]
+
+Title:    Alphaville
+        Year:     1965
+        Director: Jean-Luc Godard
+        Rating:   7.1
+        Genres:   [0, 4]
+
+Title:    Stardust
+        Year:     2007
+        Director: Matthew Vaughn
+        Rating:   7.7
+        Genres:   [1, 4]
+
+Title:    Juno
+        Year:     2007
+        Director: Jason Reitman
+        Rating:   7.7
+        Genres:   [3, 4]
+
+Title:    Darjeeling Limited, The
+        Year:     2007
+        Director: Wes Anderson
+        Rating:   7.1
+        Genres:   [4]
+
+Title:    Broken Flowers
+        Year:     2005
+        Director: Jim Jarmusch
+        Rating:   7.2
+        Genres:   [3, 4]
+
+Title:    Star Wars: Episode IV - A New Hope
+        Year:     1977
+        Director: George Lucas
+        Rating:   8.7
+        Genres:   [0, 6]
+
+Title:    Horror of Dracula
+        Year:     1958
+        Director: Terence Fisher
+        Rating:   7.4
+        Genres:   [8]
+
+Title:    Jason and the Argonauts
+        Year:     1963
+        Director: Don Chaffey
+        Rating:   7.4
+        Genres:   [1, 6]
+
+Title:    Wrong Box, The
+        Year:     1966
+        Director: Bryan Forbes
+        Rating:   7.0
+        Genres:   [4]
+
+Title:    Finding Dory
+        Year:     2016
+        Director: Andrew Stanton, Angus MacLane
+        Rating:   7.5
+        Genres:   [4]
+
+Title:    Manos: The Hands of Fate
+        Year:     1966
+        Director: Harold P. Warren
+        Rating:   1.9
+        Genres:   [8]
+
+Title:    Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The
+        Year:     1964
+        Director: Ray Dennis Steckler
+        Rating:   2.2
+        Genres:   [8]
+
+Title:    Z
+        Year:     1969
+        Director: Costa-Gavras
+        Rating:   8.2
+        Genres:   [2]
+
+Title:    Wonder Woman
+        Year:     2017
+        Director: Patty Jenkins
+        Rating:   8.1
+        Genres:   [1, 6]
+
+Title:    Zulu
+        Year:     2013
+        Director: Jerome Salle
+        Rating:   6.7
+        Genres:   [2]
+
+Title:    Fake Movie
+        Year:     2015
+        Director: Fake Director
+        Rating:   0.0
+        Genres:   [7, 8, 9]
+
+Title:    Fake Movie 2
+        Year:     2018
+        Director: Another Fake Director
+        Rating:   9.2
+        Genres:   [2]
+
+Title:    Fake Movie
+        Year:     2015
+        Director: Some Director
+        Rating:   3.0
+        Genres:   [2, 5]
+
+Title:    Zulu
+        Year:     2013
+        Director: Jerome Salle
+        Rating:   6.7
+        Genres:   [2]
+
+l1 and l2 after combine: [],[]
+
+Intersection:
+Title:    Zulu
+        Year:     2013
+        Director: Jerome Salle
+        Rating:   6.7
+        Genres:   [2]
+
+[1, 1, 3, 5, 6]
+[1, 3, 5, 6]
+
+Remove Many:
+Title:    Fake Movie 2
+        Year:     2018
+        Director: Another Fake Director
+        Rating:   9.2
+        Genres:   [2]
+
+Title:    Zulu
+        Year:     2013
+        Director: Jerome Salle
+        Rating:   6.7
+        Genres:   [2]
+
+split_alt:
+First list:
+Title:    Dellamorte Dellamore
+        Year:     1994
+        Director: Michele Soavi
+        Rating:   7.2
+        Genres:   [3, 4, 5, 8]
+
+Title:    Zulu
+        Year:     1964
+        Director: Cy Endfield
+        Rating:   7.8
+        Genres:   [9]
+
+Second list:
+Title:    Dark City
+        Year:     1998
+        Director: Alex Proyas
+        Rating:   7.8
+        Genres:   [0]
+
+Title:    I Am Legend
+        Year:     2007
+        Director: Francis Lawrence
+        Rating:   7.1
+        Genres:   [0, 6]
+
+Union:
+[1, 3, 5, 6, 0, 2, 4, 7, 8, 9, 10, 11, 12, 13, 14]
+------------------------------------------------------------------------
+t02
+------------------------------------------------------------------------
+l1: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+Max: 9
+Min: 0
+Count: 5
+Contains: True, False
+Get Item: 10
+__eq__: False
+Clean:
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Find
+None
+
+Index
+-1
+
+Intersection
+Title:    Zulu
+        Year:     2013
+        Director: Jerome Salle
+        Rating:   6.7
+        Genres:   [2]
+
+Peek:
+Title:    Alphaville
+        Year:     1965
+        Director: Jean-Luc Godard
+        Rating:   7.1
+        Genres:   [0, 4]
+
+Remove:
+Title:    Fake Movie
+        Year:     2015
+        Director: Fake Director
+        Rating:   0.0
+        Genres:   [7, 8, 9]
+
+Remove Front:
+Title:    Alphaville
+        Year:     1965
+        Director: Jean-Luc Godard
+        Rating:   7.1
+        Genres:   [0, 4]
+
+Remove many
+
+Title:    Fake Movie 2
+        Year:     2018
+        Director: Another Fake Director
+        Rating:   9.2
+        Genres:   [2]
+
+Title:    Zulu
+        Year:     2013
+        Director: Jerome Salle
+        Rating:   6.7
+        Genres:   [2]
+
+Union
+
+Title:    Broken Flowers
+        Year:     2005
+        Director: Jim Jarmusch
+        Rating:   7.2
+        Genres:   [3, 4]
+
+Title:    Darjeeling Limited, The
+        Year:     2007
+        Director: Wes Anderson
+        Rating:   7.1
+        Genres:   [4]
+
+Title:    Dark City
+        Year:     1998
+        Director: Alex Proyas
+        Rating:   7.8
+        Genres:   [0]
+
+Title:    Dellamorte Dellamore
+        Year:     1994
+        Director: Michele Soavi
+        Rating:   7.2
+        Genres:   [3, 4, 5, 8]
+
+Title:    Fake Movie 2
+        Year:     2018
+        Director: Another Fake Director
+        Rating:   9.2
+        Genres:   [2]
+
+Title:    Finding Dory
+        Year:     2016
+        Director: Andrew Stanton, Angus MacLane
+        Rating:   7.5
+        Genres:   [4]
+
+Title:    Horror of Dracula
+        Year:     1958
+        Director: Terence Fisher
+        Rating:   7.4
+        Genres:   [8]
+
+Title:    I Am Legend
+        Year:     2007
+        Director: Francis Lawrence
+        Rating:   7.1
+        Genres:   [0, 6]
+
+Title:    Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The
+        Year:     1964
+        Director: Ray Dennis Steckler
+        Rating:   2.2
+        Genres:   [8]
+
+Title:    Jason and the Argonauts
+        Year:     1963
+        Director: Don Chaffey
+        Rating:   7.4
+        Genres:   [1, 6]
+
+Title:    Juno
+        Year:     2007
+        Director: Jason Reitman
+        Rating:   7.7
+        Genres:   [3, 4]
+
+Title:    Last Man On Earth, The
+        Year:     1964
+        Director: Ubaldo Ragona
+        Rating:   6.9
+        Genres:   [0]
+
+Title:    Manos: The Hands of Fate
+        Year:     1966
+        Director: Harold P. Warren
+        Rating:   1.9
+        Genres:   [8]
+
+Title:    Omega Man, The
+        Year:     1971
+        Director: Boris Sagal
+        Rating:   6.6
+        Genres:   [0, 6]
+
+Title:    Star Wars: Episode IV - A New Hope
+        Year:     1977
+        Director: George Lucas
+        Rating:   8.7
+        Genres:   [0, 6]
+
+Title:    Stardust
+        Year:     2007
+        Director: Matthew Vaughn
+        Rating:   7.7
+        Genres:   [1, 4]
+
+Title:    Wonder Woman
+        Year:     2017
+        Director: Patty Jenkins
+        Rating:   8.1
+        Genres:   [1, 6]
+
+Title:    Wrong Box, The
+        Year:     1966
+        Director: Bryan Forbes
+        Rating:   7.0
+        Genres:   [4]
+
+Title:    Z
+        Year:     1969
+        Director: Costa-Gavras
+        Rating:   8.2
+        Genres:   [2]
+
+Title:    Zulu
+        Year:     1964
+        Director: Cy Endfield
+        Rating:   7.8
+        Genres:   [9]
+
+Title:    Zulu
+        Year:     2013
+        Director: Jerome Salle
+        Rating:   6.7
+        Genres:   [2]
+
+Split Key
+
+------------------------------------------------------------------------
